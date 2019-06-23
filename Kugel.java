@@ -9,8 +9,7 @@ public class Kugel extends Spielobjekt
 
     Kugel(double x_, double y_)
     {      
-        x = x_;
-        y = y_;
+        super(x_, y_);
         vx = 0;
         vy = 0;       
         breite = 6;

@@ -11,8 +11,7 @@ public class Schiff extends Spielobjekt
     //Konstruktor
     public Schiff(double x_,double y_)
     {
-        x = x_;
-        y = y_;
+        super(x_,y_);
         vx = 0;
         vy = 0;
         breite = 48;

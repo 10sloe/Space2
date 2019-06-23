@@ -1,4 +1,4 @@
-public class Spielobjekt
+class Spielobjekt
 {
     //Attribute
     double x;
@@ -9,6 +9,14 @@ public class Spielobjekt
     double breite;
     double hoehe;
 
+    // Konstruktor
+    Spielobjekt(double x_, double y_)
+    {
+        x = x_;
+        y = y_;
+    }
+    
+    
     //Methoden
     void setPosition(double x_, double y_)
     {
